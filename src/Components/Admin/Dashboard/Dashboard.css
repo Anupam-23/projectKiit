@@ -1,0 +1,32 @@
+.dashboard-heading {
+  text-align: center;
+  text-decoration: underline;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
+  font-family: "Mate SC";
+  color: black;
+  font-weight: 400;
+}
+
+.dashboard-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.dashboard-card-head {
+  margin: 0 auto 0 auto;
+  margin-left: 0;
+  display: block;
+  position: relative;
+  letter-spacing: 0.25rem;
+  font-size: 1.8rem;
+  font-family: "ReemKufi";
+  color: white;
+  font-weight: 400;
+}
+
+.dashboard-card:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=Dashboard.css.map */
