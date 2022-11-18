@@ -29,7 +29,7 @@
   font-family: "ReemKufi";
   font-size: 2rem;
   font-weight: 400;
-  color: #194351;
+  color:#4ec64e;
   margin-bottom: 2rem;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .news-head:hover {
-  color: #2f88a5;
+  color: #4ec64e;
 }
 
 .news-image-div {

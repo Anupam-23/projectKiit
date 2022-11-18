@@ -1,40 +1,34 @@
 import React from "react";
 import "./Gallery.scss";
 import "pure-react-carousel/dist/react-carousel.es.css";
-import DesktopGallery from "./DesktopGallery/DesktopGallery";
-import MobileGallery from "./MobileGallery/MobileGallery";
-import { getGalleryImages } from "../../../services/galleryServices";
-import { useState, useEffect } from "react";
+import SimpleImageSlider from "react-simple-image-slider";
 
+const images = [
+  { url: "asset/images/Home/ImageSlider/img1.jpeg" },
+  { url: "asset/images/Home/ImageSlider/img2.jpeg" },
+  { url: "asset/images/Home/ImageSlider/img3.jpeg" },
+  { url: "asset/images/Home/ImageSlider/img4.jpeg" },
+  { url: "asset/images/Home/ImageSlider/img5.jpeg" },
+];
 
 const Gallery = () => {
 
-  const [images, setImage] = useState([]);
-  const fetchData = async () => {
-    let img = await getGalleryImages();
-    setImage(img);
-  }
-  useEffect(() => {
-    fetchData();
-  },[])
   return (
     <>
-      <div className="gallery" style={{ backgroundImage: `url(asset/images/Home/Gallery/gallery-bg.jpg)` }}>
+      <div className="gallery">
         <div className="headContainer">
           <h1 className="GalleryHead">Gallery</h1>
         </div>
         <div className="galleryCarousel">
-          <DesktopGallery images={images} className="desktop-gallery" />
-        </div>
-      </div>
-
-      <div className="mobileGallery" style={{ backgroundImage: `url(asset/images/Home/Gallery/gallery-bg.jpg)` }}>
-        <div className="headContainer">
-          <h1 className="mobileGallery__head">Gallery</h1>
-        </div>
-
-        <div className="mobileGallery__carousel">
-          <MobileGallery images={images} />
+                <SimpleImageSlider
+                
+        width={896}
+        height={504}
+        images={images}
+        showBullets={true}
+        showNavs={true}
+        style={{marginLeft:469}}
+      />
         </div>
       </div>
     </>

@@ -43,7 +43,6 @@ import EventDashboard from "./Components/Admin/Event/EventDashboard/EventDashboa
 import EditEvent from "./Components/Admin/Event/EditEvent/EditEvent"
 import AdminEventPost from "./Components/Admin/Event/EventPost/EventPost"
 import FooterDecider from "./Components/Shared/Footer/FooterDecider";
-import Login from "./Components/Login/Login";
 
 // import firebase from "firebase";
 // import { firebaseConfig } from './firebase.config';
