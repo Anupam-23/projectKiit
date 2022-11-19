@@ -1,4 +1,5 @@
 .galleryCarousel {
+  margin-top: 50px;
   position: relative;
 }
 
@@ -7,6 +8,7 @@
 }
 
 .gallery {
+  margin-top: 50px;
   margin-bottom: 150px;
   height: 100%;
   background-repeat: no-repeat;
@@ -16,7 +18,7 @@
 .gallery h1 {
   font-size: 2.5rem;
   font-family: "Avenir";
-  color: #124F56;
+  color: #4ec64e;
   font-weight: 300;
   padding-top: 20px;
   margin-left: 40px;
@@ -24,6 +26,7 @@
 }
 
 .GalleryHead {
+  margin-top: 50px;
   width: 110px;
   text-align: center;
   color: white;
@@ -35,6 +38,7 @@
 }
 
 .mobileGallery {
+  margin-top: 50px;
   height: 100%;
   width: 100%;
   display: none;
@@ -45,15 +49,17 @@
 }
 
 .headContainer {
+  margin-top: 50px;
   width: 100%;
   margin-bottom: 20px;
 }
 
 .mobileGallery__head {
+  margin-top: 50px;
   width: 135px;
   text-align: center;
   margin-top: 20px;
-  color: #124F56;
+  color: #4ec64e;
   font-weight: 600;
   font-size: 22px;
   font-family: "Avenir";
@@ -62,6 +68,7 @@
 }
 
 .mobileGallery__carousel {
+  margin-top: 50px;
   position: relative;
   width: 90%;
   height: 80%;

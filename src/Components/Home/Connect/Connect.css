@@ -16,7 +16,7 @@
   border-radius: 1px;
   justify-content: center;
   color: #fff;
-  background-color: #006E6D;
+  background-color: #4ec64e;
   background-repeat: no-repeat;
 }
 
@@ -37,7 +37,7 @@
   font-size: 20px;
   font-weight: 600;
   transition: all 0.2s ease;
-  color: #006E6D;
+  color: #4ec64e;
   outline: none;
   border: 0;
 }
@@ -68,7 +68,7 @@
 
 .know-btn {
   font-family: "Gilroy";
-  background-color: #006E6D;
+  background-color: #4ec64e;
   width: 150px;
   height: 40px;
   font-size: 20px;

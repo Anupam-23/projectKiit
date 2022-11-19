@@ -58,11 +58,7 @@ export const signOut = () => {
 
 export const isAdmin = (email) => {
   const adminEmail = [
-    "201951038@iiitvadodara.ac.in",
-    "201951052@iiitvadodara.ac.in",
-    "201951080@iiitvadodara.ac.in",
-    "201951107@iiitvadodara.ac.in",
-    "201951198@iiitvadodara.ac.in",
+    "ajaychauhan1079@gmail.com"
   ];
   return adminEmail.some((admin) => admin === email);
 };

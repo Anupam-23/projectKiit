@@ -6,10 +6,11 @@ const connect = () => {
     <div className="wrapper">
       <div
         className="connect"
-        style={{ backgroundImage: ` url(asset/images/Home/home.jpg)`, backgroundSize: 'cover'}}>
+        style={{ backgroundImage: ` url(asset/images/Home/homecon.png)`, backgroundSize: 'cover'}}>
         <div className="cont">
           <h1 className="heading">
-            Connect with  <br /> Alumni 
+            Connect with your <br /> classmates on the
+            <br /> portal
           </h1>
           <button type="button" className="connect-btn">
             Connect
@@ -20,13 +21,15 @@ const connect = () => {
         className="knowmore"
         style={{ backgroundImage: `url(asset/images/Home/Event/bg.png)` }}>
         <p className="info">
-          Register and Login
+          - Create a profile
           <br />
-          Connect to Alumni
+          - Browse Members by company,Industry and Location.
           <br />
-          Explore Job Opportunities
+          - Post jobs and internships
           <br />
-          Share Memories
+          - Share Memories
+          <br />
+          - Exchange Opportunities and a lot more....
           <br />
         </p>
         <button type="button" className="know-btn">

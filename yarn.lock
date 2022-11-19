@@ -10370,6 +10370,11 @@
   "resolved" "https://registry.npmjs.org/react-semantic-toasts/-/react-semantic-toasts-0.6.5.tgz"
   "version" "0.6.5"
 
+"react-simple-image-slider@^2.4.1":
+  "integrity" "sha512-9T/WjsRThJup43QxzH202rLVNqaUK9P8izTiWOfLcc5w3QygU44a9IQUuIwGYiXtWvw2spRRGLRc5Xd62/vfDg=="
+  "resolved" "https://registry.npmjs.org/react-simple-image-slider/-/react-simple-image-slider-2.4.1.tgz"
+  "version" "2.4.1"
+
 "react-slideshow-image@^3.4.7":
   "integrity" "sha512-ekPcuHIxg4P5GIL61BUzUDEAEpcth14EUkYmLScg4+McYeO1/y8v6hp4mv/PpARMZjKAJdvsqjz9Xl3JhrLcDg=="
   "resolved" "https://registry.npmjs.org/react-slideshow-image/-/react-slideshow-image-3.4.7.tgz"
